@@ -25,9 +25,8 @@ const Hero = () => {
           />
         </div>
         <p className="md:text-xl text-sm font-medium pl-2 py-2 text-[#424141]">
-          Ease, a platform that leverages advanced Product Intelligence
-          strategies to deliver real-time product insights and efficient supply
-          chain management to suppliers of FMCGs.
+          Leveraging technology to improve the way commerce is carried out
+          across all channels of distribution.
         </p>
         <button className="bg-[#ffffff] w-[200px] rounded-md my-6 mx-auto py-3 text-black font-medium">
           Coming Soon
