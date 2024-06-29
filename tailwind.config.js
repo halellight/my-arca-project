@@ -6,5 +6,6 @@ export const theme = {
       "texture-svg": "url('../assets/texture-2.svg')",
     },
   },
+  lightMode: "class",
   plugins: [],
 };
