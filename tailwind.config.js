@@ -1,11 +1,13 @@
 /** @type {import('tailwindcss').Config} */
-export const content = ["./src/**/*.{html,js,jsx,ts,tsx}"];
-export const theme = {
-  extend: {
-    backgroundImage: {
-      "texture-svg": "url('../assets/texture-2.svg')",
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  darkMode: "selector",
+  theme: {
+    extend: {
+      backgroundImage: {
+        hero: "url('./assets/Desktop.png')",
+      },
     },
   },
-  lightMode: "class",
   plugins: [],
 };
