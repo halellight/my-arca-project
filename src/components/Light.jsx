@@ -99,7 +99,7 @@ const Light = () => {
             </p>
             <ReactTyped
               className="md:text-7xl sm:text-5xl text-4xl font-bold pl-3 text-blue-500"
-              strings={["Producers.", "Individuals.", "You."]}
+              strings={["Producers.", "Wholesalers.", "Retailers.", "You."]}
               typeSpeed={60}
               backSpeed={20}
               loop
