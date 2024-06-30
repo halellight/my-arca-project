@@ -89,7 +89,7 @@ const Light = () => {
         // style={{ backgroundImage: `url(${Back})` }}
         style={{ backgroundImage: backgroundImages[theme] }}
       >
-        <div className="max-w-[960px] mt-[-15px] w-full h-60vh mx-auto text-center flex flex-col justify-center py-20">
+        <div className="max-w-[1040px] mt-[-15px] w-full h-60vh mx-auto text-center flex flex-col justify-center py-20">
           <h1 className="md:text-7xl sm:text-5xl text-4xl font-bold md:py-3 py-6">
             Making Commerce More
           </h1>
