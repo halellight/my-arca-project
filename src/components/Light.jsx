@@ -52,27 +52,11 @@ const Light = () => {
     <div className="min-h-screen bg-white dark:bg-gray-900 text-black dark:text-white">
       <div className="flex justify-between items-center h-20 w-full mx-auto px-16 py-12 bg-white dark:bg-[#010610]">
         <img src={logos[theme]} alt="logo" className="h-[25px]" />
-        <ul className="hidden md:flex ml-[500px] mr-[300px]">
-          <li className="p-6 cursor-pointer font-semibold text-m underline">
-            Home
-          </li>
-          <li className="p-6 cursor-pointer font-regular text-m text-gray-400 dark:text-gray-300 hover:text-black dark:hover:text-white">
-            About Us
-          </li>
-          <li className="p-6 cursor-pointer font-regular text-m text-gray-400 dark:text-gray-300 hover:text-black dark:hover:text-white">
-            Our Solution
-          </li>
-          <li className="p-6 cursor-pointer font-regular text-m text-gray-400 dark:text-gray-300 hover:text-black dark:hover:text-white">
-            Career
-          </li>
-          <li className="p-6 cursor-pointer font-regular text-m text-gray-400 dark:text-gray-300 hover:text-black dark:hover:text-white">
-            Events
-          </li>
-        </ul>
         <div className="gap-3 justify-between items-center flex px-12">
-          <button className="bg-black dark:bg-white text-white dark:text-black w-[200px] rounded-md font-medium my-6 mx-1 py-3">
-            Contact Us
+          <button onClick={() => window.location.href = 'mailto:team@easecommerce.xyz'} className="bg-black dark:bg-white text-white dark:text-black w-[200px] rounded-md font-medium my-6 mx-1 py-3">
+              Contact Us
           </button>
+
           <button onClick={handleSwitch} className="">
             {theme === "light" ? (
               <MdLightMode size={30} color="#000000" />
